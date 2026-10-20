@@ -567,6 +567,15 @@ button {
   font-size: 0.78rem;
 }
 
+.publication-item .submission-note {
+  max-width: 760px;
+  margin-top: 0.55rem;
+  font-size: 0.68rem;
+  font-style: italic;
+  line-height: 1.45;
+  opacity: 0.82;
+}
+
 .background-grid {
   display: grid;
   margin-top: 2.3rem;
