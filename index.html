@@ -34,7 +34,7 @@
         </nav>
 
         <div class="nav-actions">
-          <a class="nav-cv" href="assets/Yining_Wu_CV.pdf" target="_blank">CV</a>
+          <a class="nav-cv" href="assets/Yining_Wu_CV.pdf?v=20261020" target="_blank">CV</a>
           <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme">
             <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
               <circle cx="12" cy="12" r="4"></circle>
@@ -101,7 +101,7 @@
             <a href="https://scholar.google.com/citations?user=ZqIxdioAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
             <a href="https://github.com/nina510" target="_blank" rel="noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/yining-wu-3b27a5383/" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="assets/Yining_Wu_CV.pdf" target="_blank">CV</a>
+            <a href="assets/Yining_Wu_CV.pdf?v=20261020" target="_blank">CV</a>
           </div>
         </div>
 
@@ -169,6 +169,23 @@
 
         <div class="project-list">
           <article class="project-item">
+            <div class="project-image project-placeholder" aria-hidden="true">Clinical guidelines</div>
+            <div class="project-copy">
+              <p class="project-meta">AI Health Lab · Oct 2026-present</p>
+              <h3>Adaptive Clinical Guideline Consultation in LLM Agents</h3>
+              <p>
+                A tool-using diagnostic framework that lets LLM agents decide whether, when, and
+                which clinical guidelines to consult, with evaluation of diagnostic accuracy,
+                evidence-seeking behavior, and guideline-based support.
+              </p>
+              <p class="project-methods">Clinical agents · Tool use · Evidence seeking</p>
+              <div class="project-links">
+                <span>Submitted to WWW 2027</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-item">
             <a
               class="project-image"
               href="assets/projects/dxskill-pipeline.png"
@@ -184,7 +201,7 @@
               />
             </a>
             <div class="project-copy">
-              <p class="project-meta">AI Health Lab · 2026-present</p>
+              <p class="project-meta">AI Health Lab · Sep 2026-present</p>
               <h3>DxSkill: How Feedback Shapes Clinical Agents' Learning from Experience</h3>
               <p>
                 A framework for studying how clinical agents revise diagnostic skills after an
@@ -213,7 +230,7 @@
               />
             </a>
             <div class="project-copy">
-              <p class="project-meta">AI Health Lab · 2026</p>
+              <p class="project-meta">AI Health Lab · Jan-Oct 2026</p>
               <h3>EmoPatient: Emotion-Adaptive Patient Simulation</h3>
               <p>
                 An emotion-directed patient simulator with a closed-loop multi-agent architecture
@@ -243,7 +260,7 @@
               />
             </a>
             <div class="project-copy">
-              <p class="project-meta">AI Health Lab · 2026</p>
+              <p class="project-meta">AI Health Lab · Jan-Oct 2026</p>
               <h3>Steerable Emotional Behavior in LLM Virtual Patients</h3>
               <p>
                 An emotion-steering framework that uses prompting and contrastive activation-vector
@@ -253,6 +270,33 @@
               <div class="project-links">
                 <span>Submitted to IEEE ICHI 2027</span>
                 <a href="assets/papers/Emotion_Steering_ICHI_2027.pdf" target="_blank">Manuscript PDF ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <a
+              class="project-image"
+              href="assets/projects/tte-harness.png"
+              target="_blank"
+              aria-label="Open the full-size VirtualTrialHarness diagram"
+            >
+              <img
+                src="assets/projects/tte-harness.png"
+                alt="VirtualTrialHarness pipeline for translating clinical trial protocols into executable EHR-based cohort definitions"
+                loading="lazy"
+              />
+            </a>
+            <div class="project-copy">
+              <p class="project-meta">Mayo Clinic · May-Aug 2026</p>
+              <h3>VirtualTrialHarness: Agentic Framework for EHR-Based Clinical Trial Emulation</h3>
+              <p>
+                A skill-guided agent framework that translates clinical trial protocols into
+                executable EHR-based cohort definitions across complex clinical databases.
+              </p>
+              <p class="project-methods">Clinical trial emulation · Agent evaluation · EHR data</p>
+              <div class="project-links">
+                <span>Under review at npj Digital Medicine</span>
               </div>
             </div>
           </article>
@@ -273,7 +317,7 @@
               />
             </a>
             <div class="project-copy">
-              <p class="project-meta">UT Austin × Mayo Clinic · 2026</p>
+              <p class="project-meta">UT Austin × Mayo Clinic · Jul-Oct 2026</p>
               <h3>Same Diagnosis, Different Evidence Maps</h3>
               <p>
                 A differential-evidence mapping framework that reveals substantial disagreement in
@@ -303,7 +347,7 @@
               />
             </a>
             <div class="project-copy">
-              <p class="project-meta">Dell Medical School · 2025-2026</p>
+              <p class="project-meta">Dell Medical School · Oct 2025-Jun 2026</p>
               <h3>Consensus-Anchored Clinical Decision Support for Long COVID</h3>
               <p>
                 A multi-corpus clinical support system integrating expert guidance, PubMed,
@@ -350,6 +394,14 @@
           </article>
 
           <article class="publication-item">
+            <p class="publication-venue">WWW 2027 · Submitted</p>
+            <div>
+              <h3>When Does Clinical Guideline Consultation Help? Diagnostic Accuracy and Evidence-Seeking Behavior in LLM Agents</h3>
+              <p><strong>Y. Wu</strong>, J. Fang, J. Xu, S. Niu, Y. Ding</p>
+            </div>
+          </article>
+
+          <article class="publication-item">
             <p class="publication-venue">IEEE ICHI 2027 · Submitted</p>
             <div>
               <h3>
@@ -362,6 +414,14 @@
                 <a href="assets/papers/Same_Diagnosis_Different_Evidence_Maps_ICHI_2027.pdf" target="_blank">PDF</a>
               </div>
               <p class="submission-note">This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible.</p>
+            </div>
+          </article>
+
+          <article class="publication-item">
+            <p class="publication-venue">npj Digital Medicine · Under review</p>
+            <div>
+              <h3>VirtualTrialHarness: Coordinating Agentic Operationalization of Virtual Trial Protocols Across Complex Clinical Schemas</h3>
+              <p>P. Li, J. Feng, Y. Yu, <strong>Y. Wu</strong>, X. Hu, J. Lin, A. Bhandarkar, C. Tao</p>
             </div>
           </article>
 
@@ -390,7 +450,7 @@
           </article>
 
           <article class="publication-item">
-            <p class="publication-venue">ML4H 2026 · Submitted</p>
+            <p class="publication-venue">ML4H 2026 · Oral Spotlight</p>
             <div>
               <h3>ROUNDS: Source-Framed Diagnostic Revision after Multi-Turn Clinical Evidence</h3>
               <p>J. Fang, R. Chen, <strong>Y. Wu</strong>, J. Xu, X. Yang, J. Yu, W. Shi, Y. Ding, Y. Zhang</p>
